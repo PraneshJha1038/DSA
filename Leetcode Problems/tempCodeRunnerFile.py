@@ -1,0 +1,2 @@
+n nums:
+    hash_
