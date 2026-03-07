@@ -89,4 +89,19 @@ import time
 #     print(b)
 # else:
 #     print(a)
-
+"""Armstrong numbers"""
+# If sum of cubes of all the digits of number is equal to the number itself then the number is called an armstrong number
+num:int = 371
+temp = num
+digits:list = []
+sum:int = 0
+while num != 0:
+    digits.append(num % 10)
+    num = num//10
+sum = 0
+for digit in digits:
+    sum += digit**(len(digits))
+if sum == temp:
+    print(True)
+else:
+    print(False)
