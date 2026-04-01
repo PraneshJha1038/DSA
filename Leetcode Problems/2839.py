@@ -12,8 +12,9 @@ result:bool = True
 
 def canBeEqual(first:str, second:str) -> bool:
     for i in range(4):
-        if s1[i] == s2[i]:
+        if first[i] == second[i]:
             pass 
-        elif s1[i] != s2[(i + 2) % 4]:
+        elif first[i] != second[(i + 2) % 4]:
             return False
     return True
+print(canBeEqual("abcd","dacb"))
