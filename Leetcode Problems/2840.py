@@ -31,3 +31,6 @@ def canBeEqual(s1, s2):
     return True
 
 print(canBeEqual(s1, s2))
+
+# Approach 2
+print((sorted(s1[0::2]) == sorted(s2[0::2])) and (sorted(s1[1::2]) == sorted(s2[1::2])))
