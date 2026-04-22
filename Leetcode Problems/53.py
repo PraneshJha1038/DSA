@@ -24,7 +24,5 @@ for i in range(len(nums)):
     if sum < 0:
         sum = 0
         start = i+1
-    elif sum > maximum:
-        maximum = sum
-        end = i
+    maximum = max(maximum,sum)
 print(maximum,nums[start:end+1])
