@@ -1,0 +1,15 @@
+Date      , Problem, Title                                             , Difficulty, Status          , Time Taken, Notes
+2026-07-07,    3754, Concatenate Non-Zero Digits and Multiply by Sum I , Easy      , Solved          , 00:09:37  , None
+2026-07-08,    3756, Concatenate Non-Zero Digits and Multiply by Sum II, Medium    , Partially Solved, 00:49:27  , Nice Question
+2026-07-09,3532,Path Existence Queries in a Graph I,Medium,Solved,00:07:45,End
+2026-07-11,1,Two Sum,Easy,Solved,00:01:31,2026-07-12,1331,Rank Transform of an Array,Easy,Couldn't Solve,00:20:56,
+2026-07-15,3658,GCD of Odd and Even Sums,Easy,Solved,00:11:11,"Basic Maths:
+GCD = while a > 0 or b > 0:
+          if a > b:
+		a = a % b
+	  else: b = b % a
+	  if a == 0: return b
+	  elif b == 0: return a"
+2026-07-18,1979,Find Greatest Common Divisor of Array,Easy,Solved,00:07:28,
+2026-07-19,1081,Smallest Subsequence of Distinct Characters,Medium,Editorial,00:15:42,
+2026-07-28,1464,Maximum Product of Two Elements in an Array,Easy,Couldn't Solve,00:03:11,
